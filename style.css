@@ -129,34 +129,56 @@ body {
 }
 
 /* Hero */
-#hero{
-   background-image: url(images/hero4.png);
-   height: 90vh;
-   width: 100%;
-   background-size: cover;
-   background-position: top 20% right 0;
-   padding: 0 80px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   justify-content: center;
+.extra{
+ background-image: url(img/1.jpg);
+ height: 500px;
+ background-position: center;
+ background-size: cover;
+ position: relative;
+
+}
+#hero img{
+  width: 100%;
+  
+}
+.textt{
+ position: absolute;
+ top: 20%;
+ left: 3%;
+ color: #cce7d0;
+}
+h1{
+  font-size: 2.8rem;
+}
+
+#hero h2{
+  padding-bottom: 15px;
+  font-size: 2.5rem;
 }
 #hero h4{
   padding-bottom: 15px;
+  font-size: 2rem;
 }
-#hero h1{
-  color: #088178;
+#hero p{
+  font-size: 2rem;
+}
+
+#hero h1, 
+#hero h2, 
+#hero h4,
+#hero p{
+  color: #f5f7f7;
 }
 #hero button{
-  background-image: url(images/button.png);
-  background-color: transparent;
+  background-color: rgb(245, 166, 70);
   color: #088178;
   border: 0;
-  padding: 14px 80px 14px 65px;
+  padding: 18px 80px 18px 80px;
+  border-radius: 40px;
   background-repeat:  no-repeat;
   cursor: pointer;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 #feature{
   display: flex;
@@ -560,6 +582,11 @@ color: #fff;
   height: 100%;
   border-radius: 20px;
 }
+/* Contact Page*/
+
+
+
+
 /*Cart Page*/
 #cart{
   overflow-x: auto;
@@ -705,9 +732,23 @@ color: #fff;
     display: none;
   }
   #hero {
-    height: 70vh;
-    padding: 0 80px;
-    background-position: top 30% right 30%;
+   padding-bottom: 40px;
+}
+#hero h1{
+  font-size: 40px;
+}
+#hero h2{
+  font-size: 30px;
+}
+#hero h4{
+  font-size: 24px;
+}
+#hero p{
+  font-size: 16px;
+}
+#hero button{
+  font-size: 1.2rem;
+  padding: 15px 20px;
 }
 #feature {
   justify-content: center;
@@ -746,15 +787,25 @@ color: #fff;
   #header{
     padding: 10px 30px;
   }
-  h1{
-    font-size: 38px;
+  #hero {
+    padding-bottom: 70px;
+}
+ #hero h1{
+    font-size: 30px;
   }
-  h2{
-    font-size: 32px;
+  #hero h2{
+    font-size: 20px;
   }
-  #hero{
-    padding: 0 20px;
-    background-position: 55%;
+  #hero h4{
+    font-size: 18px;
+    color: #fcfdfd;
+  }
+  #hero p{
+    font-size: 16px;
+  }
+  #hero button{
+    font-size: 1rem;
+    padding: 15px 20px;
   }
   #feature{
     justify-content: space-between;
