@@ -138,8 +138,10 @@ body {
 
 }
 #hero img{
-  width: 100%;
-  
+  width: 100%; 
+}
+#hero button:hover{
+  background-color: #E3E6F3;
 }
 .textt{
  position: absolute;
@@ -179,6 +181,7 @@ h1{
   cursor: pointer;
   font-weight: 700;
   font-size: 1.5rem;
+  transition: .3s ease;
 }
 #feature{
   display: flex;
