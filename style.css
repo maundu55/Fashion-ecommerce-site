@@ -265,19 +265,20 @@ h1{
   font-weight: 700;
   color: #088178;
 }
-#product1 .pro .cart{
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color: #E3E6F3;
-  font-weight: 500;
-  color: #088178;
-  border: 1px solid #cce7d0;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
+#product1 .pro .fa-solid{
+ position: absolute;
+ bottom: 30px;
+ right: 20px;
+ background-color: #cce7d0;
+ color: #088178;
+ width: 30px;
+ height: 30px;
+ border-radius: 15px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
+
 #banner{
   display: flex;
   flex-direction: column;
@@ -819,6 +820,9 @@ color: #fff;
 }
 #product1 .pro{
   width: 100%;
+}
+#product1 .pro .fa-solid{
+  bottom: 22.5px;
 }
 #banner{
   height: 50vh;
