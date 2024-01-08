@@ -822,7 +822,7 @@ color: #fff;
 }
 #banner{
   height: 50vh;
-  max-width: 500px;
+  min-width: 358px;
 }
 #sm-banner .banner-box{
   height: 40vh;
